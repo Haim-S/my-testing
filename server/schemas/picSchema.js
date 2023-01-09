@@ -6,7 +6,7 @@ const {defaltePicUser} = require("../pic/picRandom");
 
 const picSchema = new Schema({
     title: {
-        type: String,
+        type: String
     },
     img:  {type:String, default: defaltePicUser},
     createAt: {
@@ -14,8 +14,8 @@ const picSchema = new Schema({
         default: () => Date.now(),
         immutable: true
     }
-
 })
+
 
 
 
