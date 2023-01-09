@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #F5F5F5;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+:root{
+ 
+  --navbar-bgc-color: #00a1ce;
+  --navbar-link-color: #3131319e;
+  --navbar-button-hover-background-color: #ffff;
+  --header-bgc-color: #fff;
+  --header-border-title:#F79F1F;
+  --header-color-title:#4443439e;
+  --main-bgc-color: #F5F5F5;
+  --oneCardPage-divPrice-bgc: #FAFAFA;
+  --footer-bgc-color:  #00a1ce;
+  --footer-text-color: #001E3C;
+ 
+}
+
+
+.form{
+  margin: 0;
+  padding: 3%;
 }
