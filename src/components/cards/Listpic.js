@@ -31,7 +31,7 @@ getAllPic();
 },[pic]);
 
 
-console.log(pic);
+// console.log(pic);
 
   return (
     <ListCardStyle>
